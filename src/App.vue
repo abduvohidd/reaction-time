@@ -48,16 +48,20 @@ export default {
   margin-top: 60px;
 }
 
-.play:hover {
-  cursor: pointer;
-  padding: 0.5rem 2rem;
-  background: rgb(165, 166, 168);
-  border: none;
-  border-radius: 5%;
-  transition: padding 0.5s ease-in-out;
-}
 .play {
-  transition: padding 0.5s ease-in-out;
-  font-size: 15px;
+  background: #0faf87;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+.play[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
 }
 </style>

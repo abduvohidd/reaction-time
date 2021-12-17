@@ -25,4 +25,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.rank {
+  font-size: 1.4rem;
+  color: #0faf87;
+  font-weight: bold;
+}
+</style>
